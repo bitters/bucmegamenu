@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="search">
+	<name>BuC Menufields</name>
+	<author>Michael Bornhorst</author>
+	<creationDate>2015</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1</version>
+	<description></description>
+	<files>
+		<filename plugin="bucmenufields">bucmenufields.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

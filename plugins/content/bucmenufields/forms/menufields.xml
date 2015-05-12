@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="params" >
+		<fieldset name="params" label="Megamenü">
+			
+			<field name="headline" type="radio" default="0" label="Neue Spalte?" description="Soll dieser Menüpunkt die Überschrift einer neuen Spalte sein?" class="radio btn-group btn-group-yesno">
+				<option value="1">Ja</option>
+				<option value="0">Nein</option>
+			</field>
+			
+			<field name="dropdownfullwidth" type="radio" default="0" label="Volle Breite für Dropdown?" description="Soll das Dropdown-Menü die volle Breite einnehmen?" class="radio btn-group btn-group-yesno">
+				<option value="1">Ja</option>
+				<option value="0">Nein</option>
+			</field>
+			
+			<field name="dropdowncolumns" type="text" label="Anzahl Spalten im Dropdown" description="Wenn dieser Punkt ein Dropdown-Menü enthält, kann hier die Anzahl der Spalten festgelegt werden."/>
+			
+			<field name="loadmodule" type="text" label="Modulposition laden?" description="Hier die Modulposition eintragen. Das Modul muss dann allen Seiten zugeordnet sein, damit es dargestellt wird."/>
+		
+		</fieldset>
+	</fields>
+</form>
